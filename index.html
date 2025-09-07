@@ -396,5 +396,47 @@
     <p>Garantía y soporte 24/7. Más de 1000 sistemas vendidos y muy buenos testimonios.</p>
   </footer>
 
+<!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/593983518473" target="_blank" class="whatsapp-float" title="Contacto por WhatsApp">
+  <i>💬</i>
+</a>
+
+<style>
+  .whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+    background-color: #128C7E;
+  }
+
+  /* Responsive: Ajusta en pantallas pequeñas */
+  @media (max-width: 480px) {
+    .whatsapp-float {
+      width: 50px;
+      height: 50px;
+      bottom: 20px;
+      right: 20px;
+      font-size: 26px;
+    }
+  }
+</style>
+
 </body>
 </html>
