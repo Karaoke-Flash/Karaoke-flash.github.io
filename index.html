@@ -323,6 +323,12 @@
   <section id="caracteristicas">
     <h2>Características Especiales</h2>
     <div class="features-grid">
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
       <div class="feature-card">
   <div class="feature-card">
   <div class="feature-title-box">
