@@ -286,6 +286,33 @@
   </style>
 </head>
 <body>
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.testimonial-item {
+  background: #fff;
+  padding: 0.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  max-width: 280px;
+}
+
+.testimonial-img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.testimonial-img:hover {
+  transform: scale(1.05);
+}
 
   <!-- Header -->
   <header>
@@ -421,7 +448,7 @@
   <h2>💬 Lo que dicen nuestros clientes</h2>
   <p>"Karaoke Flash no solo entretiene... ¡conquista!"</p>
 
-  <div class="testimonials-row">
+  <div class="testimonials-container">
   <div class="testimonial-item">
     <img src="testimonio1.jpg" alt="Testimonio 1 - WhatsApp" class="testimonial-img">
   </div>
@@ -431,7 +458,6 @@
   <div class="testimonial-item">
     <img src="testimonio3.jpg" alt="Testimonio 3 - WhatsApp" class="testimonial-img">
   </div>
-</div>
 </section>
 
   <!-- Actualizaciones -->
